@@ -1,0 +1,12 @@
+[run]
+branch = True
+
+[report]
+skip_covered = True
+show_missing = False
+
+[html]
+directory = test_results
+
+[xml]
+output = test_results/coverage.xml
