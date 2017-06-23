@@ -1,6 +1,13 @@
 [flake8]
-exclude =
-  pkg/generated_code/
+# E501 'line too long'
+# FIxx are from flake8-future-import - see its docs
 ignore =
-  # 'line too long'
-  E501
+  E501,
+  FI10,
+  FI11,
+  FI12,
+  FI13,
+  FI14,
+  FI15,
+  FI16,
+  FI17
